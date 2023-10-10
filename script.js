@@ -1,3 +1,4 @@
+"use strict";
 const fullName = "Theodore Redlon";
 const age = 25;
 const birthday = "January 24";

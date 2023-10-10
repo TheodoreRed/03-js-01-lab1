@@ -1,3 +1,4 @@
+"use strict";
 const calculatePay = (wage, hours) => {
   if (hours < 40) return wage * hours;
   let overTimeWage = wage * 1.5;
