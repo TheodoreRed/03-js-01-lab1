@@ -1,9 +1,11 @@
 "use strict";
 const calculatePay = (wage, hours) => {
-  if (hours < 40) return wage * hours;
-  let overTimeWage = wage * 1.5;
-  let extra = hours - 40;
-  return 40 * wage + extra * overTimeWage;
+  let paycheck = 40*wage;
+  if (hours <= 40) return paycheck;
+  const overTimeWage = wage * 1.5;
+  const extra = hours - 40;
+  paycheck += extra*overTimeWage
+  return paycheck;
 };
 
 const weeksToGoal = (wage, hours, goal) => {

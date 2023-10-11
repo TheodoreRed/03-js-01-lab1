@@ -1,6 +1,6 @@
 "use strict";
 const fullName = "Theodore Redlon";
-const age = 25;
+let age = 25;
 const birthday = "January 24";
 const pineapplePizza = false;
 const lifeEvents = [
